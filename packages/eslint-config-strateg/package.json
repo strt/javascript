@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-strateg",
+  "license": "MIT",
+  "version": "1.0.1",
+  "author": "Alexander Nanberg <alex.nanberg@hotmail.com> (https://alexandernanberg.com)",
+  "description": "",
+  "homepage": "https://github.com/strt/javascript/packages/eslint-config-strateg",
+  "repository": "github:strt/javascript",
+  "bugs": {
+    "url": "https://github.com/strt/javascript/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "styleguide"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "sitevision.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "eslint-config-alexandernanberg": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "prettier": "^1.12.1"
+  }
+}
