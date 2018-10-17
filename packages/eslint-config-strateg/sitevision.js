@@ -1,5 +1,7 @@
 module.exports = {
-  extends: 'airbnb-base/legacy',
+  extends: ['airbnb-base/legacy', 'eslin-config-prettier'],
+  plugins: ['prettier'],
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 5,
     sourceType: 'script',
@@ -19,6 +21,7 @@ module.exports = {
         functions: 'ignore',
       },
     ],
+    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
   },
   globals: {
     out: true,
