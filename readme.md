@@ -1,1 +1,1 @@
-# JavaScript styleguide
+# Strateg´s JavaScript Styleguide
