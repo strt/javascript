@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-base/legacy', 'eslin-config-prettier'],
+  extends: ['airbnb-base/legacy', 'eslint-config-prettier'],
   plugins: ['prettier'],
   parser: 'babel-eslint',
   parserOptions: {
