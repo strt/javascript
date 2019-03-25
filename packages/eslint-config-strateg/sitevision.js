@@ -9,7 +9,7 @@ module.exports = {
   rules: {
     'func-names': 'off',
     'global-require': 'off',
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
     'vars-on-top': 'off',
   },
   globals: {
