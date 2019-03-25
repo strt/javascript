@@ -6,22 +6,11 @@ module.exports = {
     ecmaVersion: 5,
     sourceType: 'script',
   },
-  env: {
-    nashorn: true,
-  },
   rules: {
-    'vars-on-top': 0,
-    'func-names': 0,
-    'global-require': 0,
-    'comma-dangle': [
-      'error',
-      {
-        objects: 'always-multiline',
-        arrays: 'always-multiline',
-        functions: 'ignore',
-      },
-    ],
-    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'func-names': 'off',
+    'global-require': 'off',
+    'prettier/prettier': 'error'
+    'vars-on-top': 'off',
   },
   globals: {
     out: true,
