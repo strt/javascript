@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-strateg",
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Alexander Nanberg <alex.nanberg@hotmail.com> (https://alexandernanberg.com)",
   "description": "",
   "homepage": "https://github.com/strt/javascript/packages/eslint-config-strateg",
